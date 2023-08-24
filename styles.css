@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+/* Reset default margin and padding */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for paragraphs with class "selector" */
+p.selector {
+    color: #00f;
+    background-color: #eee;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px;
+}
